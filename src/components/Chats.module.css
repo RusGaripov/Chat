@@ -1,0 +1,49 @@
+.chats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.operatorsHead{
+    font-size: 1.2em;
+    color:brown
+}
+.usersHead{
+    font-size: 1.2em;
+    color:darkgreen
+}
+.inputs{
+    margin-top: 20px;
+    outline:none; 
+    width: 100%;
+}
+.buttonContainer{
+    margin-top: 20px;
+}
+.btn{
+    width: 100px;
+    float: left;
+}
+.chat{
+    width: 20em;
+   margin-top: 20px;  
+}
+.messagesOperator{
+    border-color: brown;
+    border-width: 1px;
+    border-style: double;
+}
+.messagesUser{
+    border-color: darkgreen;
+    border-width: 1px;
+    border-style: double;
+}
+.text{
+    font-size: small;
+    text-align: left;
+    padding-left: 1.05em;
+    padding-right: 1.05em;
+    padding-top: 5px;
+}
+
+
+
